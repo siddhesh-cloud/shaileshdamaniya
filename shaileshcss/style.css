@@ -1,0 +1,376 @@
+#title {
+  background-color: #000000;
+  color: #fff
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: " Montserrat-black"
+    font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*NAVIGATION-BAR*/
+.navbar {
+  padding: 0 0
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-family: "Montserrat";
+}
+
+.nav-link {
+
+  font-size:150%;
+  color: #fff;
+}
+
+/*TITIE-IMAGE*/
+.title-image {
+  width: 50%;
+}
+
+/* painting */
+.paintimages {
+  padding: 10px;
+  border: 5px solid #000;
+}
+
+/* interior */
+.interiorimages {
+  padding: 10px;
+  border: 5px solid #000;
+}
+
+/*CAROUSEL*/
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-image1 {
+  width: 370px;
+  height: auto;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.carousel-image2 {
+  width: 375px;
+  height: auto;
+  display: block;
+  margin-top: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-width: 10px;
+}
+
+.carousel-image3 {
+  width: 370px;
+  display: block;
+  margin-top: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-width: 20px;
+}
+
+.carousel-image4 {
+  width: 370px;
+  display: block;
+  margin-top: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-width: 20px;
+}
+
+.carousel-image5 {
+  width: 330px;
+  display: block;
+  margin-top: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-width: 20px;
+}
+
+.carousel-image6 {
+  width: 370px;
+  display: block;
+  margin-top: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border-width: 20px;
+}
+
+/*Contact*/
+#contact-details {
+  background-color: #000;
+  height: 150px;
+  text-align: center;
+}
+
+.fa {
+  padding-top: 70px;
+}
+
+/* PRICING */
+#pricing {
+  background: #000;
+  padding: 120px;
+  text-align: center;
+}
+
+/* INTERIOR DESIGNING */
+#interior-designing {
+  background: #000;
+  text-align: center;
+}
+
+.interior-carousel1 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.interior-carousel2 {
+  width: 900px;
+  height: auto;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.interior-carousel3 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+
+
+@media (max-width:988px) {
+  .container-fluid {
+    padding: 3% 5%;
+  }
+
+  .navbar-brand {
+    font-size: 450%;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 200%;
+  }
+
+  .nav-link {
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 250%;
+  }
+
+  p {
+    font-size: 200%;
+  }
+
+  .title-image {
+    border-radius: 50%;
+    width: 300px;
+  }
+
+  .carousel-item {
+    height: 700px;
+  }
+
+  .carousel-image1 {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:px ;
+  }
+
+  .carousel-image2 {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:px ;
+  }
+
+  .carousel-image3 {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: px;
+  }
+
+  .carousel-image4 {
+    width: 380px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: px;
+  }
+
+  .carousel-image5 {
+    width: 380px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: px;
+  }
+
+  .carousel-image6 {
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:px;
+  }
+
+  .card-header {
+    font-size: 30px;
+  }
+
+  #pricing {
+    padding:100px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+
+  li {
+    font-size: 45px;
+  }
+
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 35px;
+    line-height: 1.5;
+    border-radius: .3rem;
+  }
+
+  .interior-carousel1 {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 130px;
+  }
+
+  .interior-carousel2 {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 160px;
+  }
+
+  .interior-carousel3 {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 130px;
+  }
+}
